@@ -2,19 +2,26 @@
 <html lang="zh-Hant-TW">
 <head>
     <meta charset="UTF-8"/>
-    <link rel="icon" href="/favicon.ico"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>webstart template (vite5 + tailwind3 + scss + ejs)</title>
+    <title>Apple Store 線上商店 - Apple (台灣)</title>
     <link rel="stylesheet" href="scss/main.scss">
 </head>
-<body>
-    <h1 class="text-3xl font-bold underline text">
-        Hello world!
-      </h1>
-      <a href="index2.html">fff</a>
-    <%for(var i=0;i<3;i++){%>
-      <%-include("include/partial")%>
-    <%}%>
-    
+<body class="bg-[#F5F5F7]">
+  <header class="h-[44px] w-full">
+    <nav class="flex mx-[230px] gap-[52px]">
+      <a href="#"><img class="w-[18px] h-auto" src="img/apple-black-logo.png" alt=""></a>
+      <span class="text-[12px] font-normal">商店</span>
+      <span class="text-[12px] font-normal">Mac</span>
+      <span class="text-[12px] font-normal">iPad</span>
+      <span class="text-[12px] font-normal">iPhone</span>
+      <span class="text-[12px] font-normal">Watch</span>
+      <span class="text-[12px] font-normal">AirPods</span>
+      <span class="text-[12px] font-normal">TV和家庭</span>
+      <span class="text-[12px] font-normal">娛樂</span>
+      <span class="text-[12px] font-normal">配件</span>
+      <span class="text-[12px] font-normal">支援服務</span>
+    </nav>
+</header>
 </body>
 </html>
