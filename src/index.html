@@ -7,21 +7,46 @@
     <title>Apple Store 線上商店 - Apple (台灣)</title>
     <link rel="stylesheet" href="scss/main.scss">
 </head>
-<body class="bg-[#F5F5F7]">
-  <header class="h-[44px] w-full">
-    <nav class="flex mx-[230px] gap-[52px]">
-      <a href="#"><img class="w-[18px] h-auto" src="img/apple-black-logo.png" alt=""></a>
-      <span class="text-[12px] font-normal">商店</span>
-      <span class="text-[12px] font-normal">Mac</span>
-      <span class="text-[12px] font-normal">iPad</span>
-      <span class="text-[12px] font-normal">iPhone</span>
-      <span class="text-[12px] font-normal">Watch</span>
-      <span class="text-[12px] font-normal">AirPods</span>
-      <span class="text-[12px] font-normal">TV和家庭</span>
-      <span class="text-[12px] font-normal">娛樂</span>
-      <span class="text-[12px] font-normal">配件</span>
-      <span class="text-[12px] font-normal">支援服務</span>
-    </nav>
-</header>
+<body class="bg-[#F5F5F7] min-w-[1024]">
+  <header>
+    <div class="flex h-[44px] w-full justify-center items-center gap-[38px]">
+      <a href="#"><img class="w-[15px] h-auto cursor-pointer" src="img/apple-black-logo.png" alt=""></a>
+      <div class="header_list">商店</div>
+      <div class="header_list">Mac</div>
+      <div class="header_list">iPad</div>
+      <div class="header_list">iPhone</div>
+      <div class="header_list">Watch</div>
+      <div class="header_list">AirPods</div>
+      <div class="header_list">TV和家庭</div>
+      <div class="header_list">娛樂</div>
+      <div class="header_list">配件</div>
+      <div class="header_list">支援服務</div>
+      <div class="w-[13px]"><img src="img/magnifier.png" alt=""></div>
+      <div class="w-[13px]"><img src="img/shopping-bag.png" alt=""></div>
+    </div>
+  </header>
+  <main>
+    <div class="flex w-full h-[53px] py-[3px] bg-[#ffffff] justify-center items-center">
+        
+        <div class=" w-[980px] flex justify-center  overflow-hidden">
+          <button class="left_slider">
+            <img class="left_btn" src="img/left-arrow.png" alt="">
+          </button>
+          <div class="slider_1">
+            <span class="w-auto text-[14px] font-normal text-[#1d1d1f] flex text-justify">以 iPhone 11 或後續機型升級換購 iPhone 15 或 iPhone 15 Pro，獲享 NT$5,500 至 NT$27,000 折抵優惠<sup>1</sup>。
+            <a class="after:content-['>'] text-[14px] text-[#0066CC] hover:underline underline-offset-2" href="">選購 iPhone</a> 
+            </span>
+          </div>
+          <div class="slider_2">
+            <span class="w-auto after:content-['>'] text-[14px] font-normal flex text-justify text-[#0066CC] hover:underline underline-offset-2">
+              <a href="">提供零利率分期付款優惠<sup>2</sup>。</a>
+            </span>
+          </div>
+          <button class="right_slider">
+            <img src="img/right-arrow.png" alt="">
+          </button>
+        </div>
+    </div>
+  </main>
 </body>
 </html>

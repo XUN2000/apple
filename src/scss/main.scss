@@ -3,3 +3,33 @@
 @tailwind utilities;
 
 @layer utilities {}
+
+.header_list{
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.slider_1{
+    display: flex;
+    width: 980px ;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.slider_2{
+    display: none;
+    width: 980px ;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.left_btn{
+    cursor: pointer;
+}
+button:active{
+    .slider_1{
+
+    }
+}
